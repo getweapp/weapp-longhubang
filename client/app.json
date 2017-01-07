@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/report/report",
+    "pages/sales/sales",
+    "pages/employees/employees"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "销售龙虎榜",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#ff6600",
+    "backgroundColor": "#fdfdfd",
+    "borderStyle": "black",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/report/report",
+      "text": "龙虎榜",
+      "iconPath": "images/report0.png",
+      "selectedIconPath": "images/report1.png"
+    },
+    {
+      "pagePath": "pages/sales/sales",
+      "text": "新增销售",
+      "iconPath": "images/sales0.png",
+      "selectedIconPath": "images/sales1.png"
+    },
+    {
+      "pagePath": "pages/employees/employees",
+      "text": "设置员工",
+      "iconPath": "images/employees0.png",
+      "selectedIconPath": "images/employees1.png"
+    }
+    ]
+  },
+  "debug":true
+}

@@ -1,0 +1,9 @@
+
+.title{
+  display:block;
+  padding: 30rpx;
+}
+
+.button{
+	margin-top: 100rpx;
+}

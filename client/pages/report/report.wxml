@@ -1,0 +1,16 @@
+<view class="page">
+    <input  placeholder="输入统计月份" bindinput="bindInputMonth" type="number" maxlength="6"/>
+   <view class="item">
+   <text class="sort">名次</text>
+   <text class="no">工号</text>
+   <text class="name">姓名</text>
+   <text class="amount">销售金额</text>
+   </view>
+   <view class="item" wx:for="{{report}}" wx:key="{{item.no}}">
+   <text class="sort">第{{index+1}}名</text>
+   <text class="no">{{item.no}}</text>
+   <text class="name">{{employees[item.no].name}}</text>
+   <text class="amount"> ¥{{item.amount}}</text>
+   </view>
+
+</view>

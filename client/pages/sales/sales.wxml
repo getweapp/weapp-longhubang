@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page__bd">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{pickers}}">
+    <view class="picker">
+      选择员工：{{employees[index].no}} {{employees[index].name}}
+    </view>
+  </picker>
+    <view>
+    <input  placeholder="输入销售月份" value="{{ month }}" bindinput="bindInputMonth"  type="number" maxlength="6"/>
+     <input  placeholder="输入销售金额" value="{{ amount }}" bindinput="bindInputAmount" type="number" maxlength="10"/>
+    </view>
+    <view style="display:flex;">
+      <button bindtap="save" class = "button" type="primary">新增销售</button>
+      </view>
+    </view>
+</view>

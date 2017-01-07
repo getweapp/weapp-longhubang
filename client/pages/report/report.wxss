@@ -1,0 +1,25 @@
+.item{
+    border-bottom: 2rpx solid #e3e3e3;
+    display:flex;
+    padding:0;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    font-size: 34rpx;
+}
+.item text{
+    display:inline-block;
+    padding: 20rpx;
+}
+.sort{
+ width: 100rpx;   
+}
+.no{
+   width: 100rpx;  
+}
+.name{
+  width: 200rpx;     
+}
+.amount{
+    text-align:right;  
+    flex:1
+}

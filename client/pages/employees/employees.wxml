@@ -1,0 +1,14 @@
+<view class="page">
+  <view>
+    <view >
+    <text class="title">请输入员工信息：</text>
+     <input  placeholder="输入工号" value="{{ no }}" bindinput="bindInputNo"  maxlength="50"/>
+    
+     <input  placeholder="输入姓名" value="{{ name }}" bindinput="bindInputName"  maxlength="50"/>
+    </view>
+    <view style="display:flex;">
+      <button bindtap="save" class = "button" type="primary">保存员工</button>
+      </view>
+    </view>
+
+</view>
