@@ -28,3 +28,7 @@ node
 ### 项目截图：
 
 https://www.getweapp.com/project?projectId=58712eea52e1e8733dc567d8
+
+### 作者的设计思路和源码分析视频课程：
+
+https://www.getweapp.com/videoCourse?courseId=587115a0b016c1c205249b7b
